@@ -33,6 +33,7 @@
     "yargs": "^4.7.1"
   },
   "dependencies": {
+    "app-root-path": "^2.2.1",
     "next-classify": "github:afeiship/next-classify",
     "next-js-core2": "github:afeiship/next-js-core2"
   }
