@@ -4,7 +4,11 @@
   var loadPlugins = require('gulp-load-plugins');
   var nxClassify = nx.classify || require('next-classify');
   var DEFAULT_OPTIONS = {
-    pattern: ['*-webpack-plugin', 'webpack-html-plugin'],
+    pattern: [
+      '*-webpack-plugin',
+      'webpack-html-plugin',
+      'mini-css-extract-plugin'
+    ],
     renameFn: function(name) {
       return nxClassify(name);
     },
