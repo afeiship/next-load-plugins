@@ -1,0 +1,26 @@
+{
+  "name": "next-load-plugins",
+  "description": "Like gulpLoadPlugins for any build system",
+  "main": "dist/next-load-plugins.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-load-plugins",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
+}
