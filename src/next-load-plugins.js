@@ -7,6 +7,11 @@
     pattern: ['*-webpack-plugin', 'webpack-html-plugin'],
     renameFn: function(name) {
       return nxClassify(name);
+    },
+    postRequireTransforms: {
+      CleanWebpackPlugin: function(inPostPluginName) {
+        return inPostPluginName.CleanWebpackPlugin;
+      }
     }
   };
 
