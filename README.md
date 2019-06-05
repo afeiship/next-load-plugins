@@ -6,6 +6,17 @@
 npm install -S afeiship/next-load-plugins --registry=https://registry.npm.taobao.org
 ```
 
+## default
+```js
+const DEFAULT_OPTIONS = {
+  pattern: ['*-webpack-plugin', 'webpack-html-plugin'],
+  renameFn: function(name) {
+    return nxClassify(name);
+  }
+};
+```
+
+
 ## apis
 | api  | params      | description      |
 | ---- | ----------- | ---------------- |
