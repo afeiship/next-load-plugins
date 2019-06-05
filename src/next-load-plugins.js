@@ -7,7 +7,8 @@
     pattern: [
       '*-webpack-plugin',
       'webpack-html-plugin',
-      'mini-css-extract-plugin'
+      'mini-css-extract-plugin',
+      'webpackbar'
     ],
     renameFn: function(name) {
       return nxClassify(name);
