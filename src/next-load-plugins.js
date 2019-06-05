@@ -6,8 +6,13 @@
   var path = require('path');
   var nxClassify = nx.classify || require('next-classify');
   var DEFAULT_OPTIONS = {
-    config: path.join(appPath + './package.json'),
-    pattern: ['*-webpack-plugin', 'webpack-html-plugin', 'mini-css-extract-plugin', 'webpackbar'],
+    config: path.join( appPath + './package.json'),
+    pattern: [
+      '*-webpack-plugin',
+      'webpack-html-plugin',
+      'mini-css-extract-plugin',
+      'webpackbar'
+    ],
     renameFn: function(name) {
       return nxClassify(name);
     },
