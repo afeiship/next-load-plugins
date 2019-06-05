@@ -6,7 +6,7 @@
   var path = require('path');
   var nxClassify = nx.classify || require('next-classify');
   var DEFAULT_OPTIONS = {
-    config: path.join( appPath + './package.json'),
+    config: path.join(appPath, './package.json'),
     pattern: [
       '*-webpack-plugin',
       'webpack-html-plugin',
