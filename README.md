@@ -27,4 +27,4 @@ const $ = NxLoadPlugins.load();
 ```
 
 ## resources
-- https://github.com/afeiship
+- https://github.com/jackfranklin/gulp-load-plugins
