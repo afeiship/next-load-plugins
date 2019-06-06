@@ -9,7 +9,12 @@ npm install -S afeiship/next-load-plugins --registry=https://registry.npm.taobao
 ## default
 ```js
 const DEFAULT_OPTIONS = {
-  pattern: ['*-webpack-plugin', 'webpack-html-plugin'],
+  config: path.join(appPath, './package.json'),
+  pattern: [
+    '*-webpack-plugin',
+    'mini-css-extract-plugin',
+    'webpackbar'
+  ],
   renameFn: function(name) {
     return nxClassify(name);
   },
