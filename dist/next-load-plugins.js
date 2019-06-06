@@ -16,7 +16,6 @@
     config: path.join(appPath, './package.json'),
     pattern: [
       '*-webpack-plugin',
-      'webpack-html-plugin',
       'mini-css-extract-plugin',
       'webpackbar'
     ],
