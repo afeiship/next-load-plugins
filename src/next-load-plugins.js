@@ -10,6 +10,7 @@
     pattern: [
       '*-webpack-plugin',
       'mini-css-extract-plugin',
+      'webpack-spritesmith',
       'webpackbar'
     ],
     renameFn: function(name) {
